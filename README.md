@@ -14,9 +14,9 @@ WARNING: use at your own risk.
      /home/user/KindleGen/kindlegen
      ```
 
-     * Put the kindlegen file somewhere in PATH, for example: /bin/kindlegen and execute chmod a+x /bin/kindlegen
+     * Put the kindlegen file somewhere in PATH, for example: /bin/kindlegen and execute `chmod a+x /bin/kindlegen`
 
-     * check the README: https://kindlegen.s3.amazonaws.com/Readme.txt
+     * Check the README: https://kindlegen.s3.amazonaws.com/Readme.txt
     
    If you only need epub books this step can be skipped.
 

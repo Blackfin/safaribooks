@@ -39,7 +39,7 @@ class SafariBooksSpider(scrapy.Spider):
     self.initialize_output()
 
   def initialize_output(self):
-    shutil.rmtree('output/')
+    shutil.rmtree('output/', ignore_errors=True)
     shutil.copytree('data/', 'output/')
 
   def parse(self, response):
