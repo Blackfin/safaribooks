@@ -2,7 +2,6 @@
 Convert safaribooksonline ebook to Kindle format
 
 # Usage
-WARNING: use at your own risk.
 
 1. Download kindlegen from Amazon: https://www.amazon.com/gp/feature.html?docId=1000765211 
    
