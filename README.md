@@ -10,7 +10,7 @@ Convert safaribooksonline ebook to Kindle format
      
      ```bash
      #!/bin/sh
-     /home/user/KindleGen/kindlegen
+     /home/user/KindleGen/kindlegen $1
      ```
 
      * Put the kindlegen file somewhere in PATH, for example: /bin/kindlegen and execute `chmod a+x /bin/kindlegen`
@@ -21,11 +21,11 @@ Convert safaribooksonline ebook to Kindle format
 
 2. Make sure you have Python, Scrapy, jinja2, beautifulsoup are installed.
    
-   Then run `./craw.sh user password bookid`.
+   Then run `./craw.sh user password bookid book-name`.
    
    Where the bookid is the id in url such as `https://www.safaribooksonline.com/library/view/real-world-machine-learning/9781617291920/kindle_split_011.html` (9781617291920 in this case) when you read books in safaribooksonline.
    
-   Full cmd line for run: `./crawl.sh user password 9781617291920`.
+   Full cmd line for run: `./crawl.sh user password 9781617291920 real-world-machine-learning`.
 
 3. An epub and mobi file will be generated and placed in programm directory.
    
