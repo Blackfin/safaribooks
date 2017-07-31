@@ -56,6 +56,8 @@ DOWNLOAD_DELAY = 0.25
 #    'safaribook.middlewares.MyCustomDownloaderMiddleware': 543,
 #}
 
+DOWNLOADER_CLIENTCONTEXTFACTORY = 'safaribook.contextfactory.TLSFlexibleContextFactory'
+
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
 #EXTENSIONS = {
