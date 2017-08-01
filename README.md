@@ -4,8 +4,7 @@ Convert safaribooksonline ebook to Kindle format
 # Usage
 
 1. Download kindlegen from Amazon: https://www.amazon.com/gp/feature.html?docId=1000765211 
-   
-   Bullet list:
+  
      * create file kindlegen with content:
      
      ```bash
@@ -26,6 +25,8 @@ Convert safaribooksonline ebook to Kindle format
    Where the bookid is the id in url such as `https://www.safaribooksonline.com/library/view/real-world-machine-learning/9781617291920/kindle_split_011.html` (9781617291920 in this case) when you read books in safaribooksonline.
    
    Full cmd line for run: `./crawl.sh user password 9781617291920 real-world-machine-learning`.
+
+
 
 3. An epub and mobi file will be generated and placed in programm directory.
    
